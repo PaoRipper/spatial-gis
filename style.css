@@ -1,0 +1,93 @@
+*{
+  font-family: "Kanit", sans-serif;
+}
+.form {
+  z-index: 10;
+  position: absolute;
+  margin-left: 65rem;
+  margin-top: 25%;
+  font-family: "Kanit", sans-serif;
+  font-size: 1.2rem;
+  position: fixed;
+  background-color: rgb(0, 0, 0, 0.5);
+  color: white;
+  padding: 12px;
+  border-radius: 15px;
+}
+
+.container{
+  width: 50%;
+  background-color: rgb(47, 47, 47);
+  color: white;
+  padding: 1rem;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+
+.form label:hover{
+  color: gold;
+  transition: 0.2s;
+}
+
+.form input[type='radio']:hover{
+  cursor: pointer;
+}
+
+.btn{
+  color: whitesmoke;
+}
+
+#myTable{
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-color: rgb(36, 124, 255);
+  text-align: center;
+  color: white;
+}
+
+tr th {
+  font-size: 20px;
+}
+
+tr:nth-child(even){
+  background-color: #76adff;
+}
+
+.citYear-dropdown{
+  display: flex;
+}
+
+
+
+
+.more-information{
+  font-family: "Kanit", sans-serif;
+  font-weight: bold;
+  width: fit-content;
+  margin: 0 auto;
+  animation: 2s fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.more-information:hover{
+  color: rebeccapurple;
+  transition: 0.5s linear;
+}
+
+
+
+
+
+
